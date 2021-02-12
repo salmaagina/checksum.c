@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication11.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  checksum.cpp
+c:\users\salma\source\repos\consoleapplication11\consoleapplication11\checksum.cpp(29): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\salma\source\repos\consoleapplication11\consoleapplication11\checksum.cpp(24): warning C4101: 'remainder': unreferenced local variable
+c:\users\salma\source\repos\consoleapplication11\consoleapplication11\checksum.cpp(23): warning C4101: 'quotient': unreferenced local variable
