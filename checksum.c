@@ -27,7 +27,7 @@ int main(int argc, char * argv[], char ** envp)
 
 	for (int c = 1; c <= count; c++)
 	{
-		scanf("%d", &input);
+		scanf_s("%d", &input);
 		if (input > max_int)
 		{
 			fprintf(stderr, "Error in input \n");
