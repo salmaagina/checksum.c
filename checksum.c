@@ -10,6 +10,7 @@
 
 #include "stdio.h"
 #include "stdlib.h"
+#include <unistd.h>
 
 #define max_int (255)
 #define byte (char)
