@@ -50,7 +50,13 @@ int main(int argc, char * argv[], char ** envp)
 	complement = max_int - sum;
 
 	/* the following is the prototype for the read system call */
-	/* int read(int fildes, void *buf, size_t nbyte);  */
+	int read(int fildes, void *buf, size_t nbyte);  
+	int buf[10];
+	int ret;
+	ret = read(0, (void*) &buf, 10);
+
+	printf("%s\n", buf);
+	
 	fprintf(stdout, "Stored Checksum: %d, Computed Checksum: %d\n", checksum, complement);
 	if (checksum != complement) {
 		fprintf(stderr, "Error Detected!\n");
