@@ -1,6 +1,6 @@
 /********************************/
 /* Program Name: Checksum.c     */
-/* Author: Salma Agina          */
+/* Author:                      */
 /* Date: 2/9/2021               */
 /********************************/
 /* Description:                 */
