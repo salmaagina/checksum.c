@@ -21,11 +21,11 @@ int main(int argc, char * argv[], char ** envp)
 	byte header[10];
 
 	/* the following is the prototype for the read system call */
-	read(STDIN_FILENO, &header, count);
+	retval = read(STDIN_FILENO, &header, 10);
 
-	for (int c = 1; c <= count; c++)
+	for (int c = 0; c < count; c++)
 	{
-		if (c == 6)
+		if (c == 5)
 		{
 			checksum = header[c];
 			header[c] = 0;
